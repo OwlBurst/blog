@@ -36,6 +36,28 @@ export const siteConfig: SiteConfig = {
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
+		{
+			src: "/favicon/favicon-16x16.png",
+			sizes: "16x16",
+		},
+		{
+			src: "/favicon/favicon-32x32.png",
+			sizes: "32x32",
+		},
+		{
+			src: "/favicon/android-chrome-48x48.png",
+			sizes: "48x48",
+		},
+		{
+			// For Google search results and general use
+			src: "/favicon/android-chrome-192x192.png",
+			sizes: "192x192",
+		},
+		{
+			// Apple touch icon
+			src: "/favicon/apple-touch-icon.png",
+			sizes: "180x180",
+		},
 	],
 };
 
@@ -46,33 +68,33 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/owlburst/blog", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/owl.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Cosmic System",
+	bio: "Developer with persisting weird interests from their childhood",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "Bluesky",
+			icon: "fa6-brands:bluesky", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			url: "https://bsky.app/profile/did:plc:oozksfai6zaxbnvilddawx2f",
 		},
 		{
 			name: "Steam",
 			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			url: "https://steamcommunity.com/id/owlburst",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/owlburst/",
 		},
 	],
 };
