@@ -1,9 +1,9 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is a blog of Cosmic System
 
-::github{repo="saicaca/fuwari"}
+Developer by day, enjoyer of the small colourful horses by night.
+
+*a little backstory will go here... someday*
 
 > ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> - Owl Burst by [rayadoriio](https://rayadoriio.carrd.co/)
